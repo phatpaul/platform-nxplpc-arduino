@@ -1,5 +1,8 @@
 # platform-nxplpc-arduino
 
+> **Arduino core:** [zackees/ArduinoCore-LPC8xx](https://github.com/zackees/ArduinoCore-LPC8xx)
+> — this platform's `framework-arduino-lpc8xx` package is that repo.
+
 PlatformIO development platform for NXP LPC8xx (LPC804, LPC845) Cortex-M0+
 boards with the **Arduino** framework.
 
