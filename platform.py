@@ -25,7 +25,12 @@ from platformio.public import PlatformBase
 IS_WINDOWS = sys.platform.startswith("win")
 
 
-class NxplpcArduinoPlatform(PlatformBase):
+# Class name MUST match what PlatformIO derives from the platform `name`
+# field in platform.json: dash is stripped, then the result is title-cased
+# as a single token. `nxplpc-arduino` -> `Nxplpcarduino` -> `NxplpcarduinoPlatform`
+# (single capital N, lowercase rest). Renaming the platform `name` will
+# require updating this class name in lock-step.
+class NxplpcarduinoPlatform(PlatformBase):
 
     def is_embedded(self):
         return True
