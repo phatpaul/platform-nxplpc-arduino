@@ -10,7 +10,7 @@
   },
   "debug": {
     "jlink_device": "LPC845M301JBD64",
-    "openocd_target": "lpc84x.cfg",
+    "openocd_target": "lpc84x",
     "svd_path": "LPC845.svd"
   },
   "frameworks": [

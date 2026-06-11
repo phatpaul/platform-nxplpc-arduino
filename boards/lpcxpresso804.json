@@ -10,7 +10,7 @@
   },
   "debug": {
     "jlink_device": "LPC804M101JDH24",
-    "openocd_target": "lpc8xx.cfg",
+    "openocd_target": "lpc8xx",
     "svd_path": "LPC804.svd"
   },
   "frameworks": [
